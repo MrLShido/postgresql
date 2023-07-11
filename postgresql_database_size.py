@@ -17,7 +17,7 @@ if __name__ == "__main__":
         cursor.execute(sql)
 
         for row in cursor:
-            print(row[0],row[1],row[2])
+            print("\t",row[0],"\t",row[1],"\t",row[2])
 
 
         cursor.close()
